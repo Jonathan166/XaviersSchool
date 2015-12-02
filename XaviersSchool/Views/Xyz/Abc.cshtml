@@ -1,0 +1,12 @@
+﻿@model IEnumerable<XaviersSchool.Models.Mutant>
+
+@{
+    ViewBag.Title = "Abc";
+}
+
+<h2>This is the Abc.adhmtl page</h2>
+
+@foreach (var item in Model)
+{
+    <h3>Mutant Name: @item.FirstName @item.LastName</h3>
+}
